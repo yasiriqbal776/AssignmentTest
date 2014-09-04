@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_homeactivity_pcreate"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:clickable="true"
+        android:text="Create Product" />
+
+    <Button
+        android:id="@+id/btn_homeactivity_pshow"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="70dp"
+        android:clickable="true"
+        android:text="Show Product" />
+
+</FrameLayout>
